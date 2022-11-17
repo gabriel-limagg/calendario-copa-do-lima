@@ -1,0 +1,22 @@
+.card{
+    background-color: var(--card-bg-color);
+    width: 19.75rem;
+   padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.card img{
+    width: 3.215rem;
+
+}
+.card ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card ul li strong{
+    font-size: 2.25rem;
+    color: var(--game-hour-color);
+}

@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    border-radius: 26px;
+    border-bottom: 1px solid var(--card-bg-color);
+    
 }
 .card img{
     width: 3.215rem;
@@ -19,4 +22,5 @@
 .card ul li strong{
     font-size: 2.25rem;
     color: var(--game-hour-color);
+
 }
